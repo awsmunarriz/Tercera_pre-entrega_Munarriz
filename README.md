@@ -2,15 +2,21 @@
 
 Desarrollar una WEB Django con patrón MVT subida a Github.
 
-## Tabla de Contenidos
+## Superusuario
+Username: mariano
+Password: 123456
 
-- [Instalación](#instalación)
-- [Contacto](#mmunarriz@gmail.com)
+## Agregar un cliente
+http://127.0.0.1:8000/app-web/cliente-formulario/
 
-## Instalación
+## Agregar una categoria
+http://127.0.0.1:8000/app-web/categoria-formulario/
 
-Instrucciones para instalar el proyecto:
+## Agregar un producto
+http://127.0.0.1:8000/app-web/producto-formulario/
 
-```bash
-git clone https://github.com/awsmunarriz/Tercera_pre-entrega_Munarriz.git
-cd Tercera_pre-entrega_Munarriz
+## Agregar una orden
+http://127.0.0.1:8000/app-web/orden-formulario/
+
+## Buscar un cliente
+http://127.0.0.1:8000/app-web/busqueda-cliente/

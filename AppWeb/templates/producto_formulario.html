@@ -4,6 +4,8 @@
   
 <form action="{% url 'ProductoFormulario' %}" method="post">{% csrf_token %}
 
+  <h3>Agregar un producto:</h3>
+  
   {{miFormulario.as_p}}
 
   <button type="submit"> Crear </button>

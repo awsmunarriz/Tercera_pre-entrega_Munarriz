@@ -4,6 +4,8 @@
   
 <form action="{% url 'OrdenFormulario' %}" method="post">{% csrf_token %}
 
+  <h3>Agregar una orden:</h3>
+  
   {{miFormulario.as_p}}
 
   <button type="submit"> Crear </button>
