@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lista Productos</title>
-  </head>
-  <body>
-    <ul>
-      {% for producto in lista_productos %}
-      <li>{{producto.nombre}} - {{producto.descripcion}}</li>
-      {% endfor %}
-    </ul>
-  </body>
-</html>
+{% extends 'padre.html' %} {% block contenidoQueCambia %}
+
+<h3>Lista de productos</h3>
+
+{% for producto in lista_productos %}
+<li>{{producto.nombre}} - {{producto.descripcion}}</li>
+{% endfor %}
+</ul>
+
+{% endblock contenidoQueCambia %}

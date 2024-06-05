@@ -4,9 +4,9 @@ from AppWeb.views import lista_productos, inicio, productos, categorias, cliente
 
 urlpatterns = [
     path('lista-productos/', lista_productos),
-    path('', inicio),
-    path('productos/', productos),
-    path('categorias/', categorias),
-    path('clientes/', clientes),
-    path('ordenes/', ordenes),
+    path('', inicio, name='Inicio'),
+    path('productos/', productos, name='Productos'),
+    path('categorias/', categorias, name='Categorias'),
+    path('clientes/', clientes, name='Clientes'),
+    path('ordenes/', ordenes, name='Ordenes'),
 ]
