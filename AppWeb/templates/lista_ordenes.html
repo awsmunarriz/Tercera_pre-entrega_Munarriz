@@ -1,0 +1,10 @@
+{% extends 'padre.html' %} {% block contenidoQueCambia %}
+
+<h3>Lista de ordenes</h3>
+
+{% for orden in lista_ordenes %}
+<li>{{orden.cliente}} - {{orden.producto}} - {{orden.estado}}</li>
+{% endfor %}
+</ul>
+
+{% endblock contenidoQueCambia %}

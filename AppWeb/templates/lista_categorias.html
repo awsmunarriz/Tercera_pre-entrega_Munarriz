@@ -1,0 +1,10 @@
+{% extends 'padre.html' %} {% block contenidoQueCambia %}
+
+<h3>Lista de categorias</h3>
+
+{% for categoria in lista_categorias %}
+<li>{{categoria.nombre}}</li>
+{% endfor %}
+</ul>
+
+{% endblock contenidoQueCambia %}

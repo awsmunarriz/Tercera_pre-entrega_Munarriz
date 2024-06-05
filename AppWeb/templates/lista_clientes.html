@@ -1,0 +1,10 @@
+{% extends 'padre.html' %} {% block contenidoQueCambia %}
+
+<h3>Lista de clientes</h3>
+
+{% for cliente in lista_clientes %}
+<li>{{cliente.nombre}} - {{cliente.numero_telefono}}</li>
+{% endfor %}
+</ul>
+
+{% endblock contenidoQueCambia %}
